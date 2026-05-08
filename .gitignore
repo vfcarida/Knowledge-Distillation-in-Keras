@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project specifics
+*.h5
+*.tflite
+*.pb
+*.log
+
+# pytest
+.pytest_cache/
+coverage.xml
+htmlcov/
+.coverage
+
+# mypy
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
